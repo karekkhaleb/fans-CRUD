@@ -1,0 +1,20 @@
+/*.customerHeight{*/
+  /*min-height: 200px;*/
+  /*text-align: center;*/
+/*}*/
+body{
+  padding: 0;
+  margin: 0;
+  background: #ededed;
+}
+.addFan{
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+.hiden{
+  display: none;
+}
+.shown{
+  display: block;
+}
