@@ -20,3 +20,45 @@ export default {
 }
 </script>
 
+<style>
+  body{
+    padding: 0;
+    margin: 0;
+    background: #ededed;
+  }
+  .addFan{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+  }
+  .hiden{
+    display: none;
+  }
+  .shown{
+    display: block;
+  }
+
+
+
+
+  *{
+    font-family: "Adobe Caslon Pro" , Arial, "Helvetica Neue";
+    font-weight: bold;
+    text-align: center;
+  }
+  #editFanForm{
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background: #1b1e21;
+    color: #00bcd4;
+  }
+  #form input, textarea{
+    background-color: #2c472b;
+    color: #ededed;
+  }
+
+</style>
+
