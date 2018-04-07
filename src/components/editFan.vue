@@ -58,7 +58,6 @@
         event.preventDefault();
         this.$http.put('http://127.0.0.1:53053/fan/'+this.$route.params.id, this.fan)
           .then(function (response) {
-            console.log(response);
             this.$router.push('/fans');
           })
       }

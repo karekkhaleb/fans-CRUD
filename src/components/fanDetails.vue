@@ -54,7 +54,6 @@
       this.$http.get('http://127.0.0.1:53053/fan/'+this.$route.params.id)
         .then(function (response) {
           this.fan= response.body;
-          console.log(response);
         })
     },
     methods:{
@@ -62,7 +61,7 @@
         this.$http.delete('http://127.0.0.1:53053/fan/'+id)
           .then(function (response) {
             this.$router.push('/fans');
-            console.log(response);
+            console.log('fan deleted ');
           })
       },
       editFan(){

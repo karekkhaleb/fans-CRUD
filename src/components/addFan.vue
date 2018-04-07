@@ -54,7 +54,6 @@
         this.newFan = this.fan;
         this.$http.post('http://127.0.0.1:53053/fans', this.newFan)
           .then(function (response) {
-            console.log(response);
             this.$router.push('/fanDetails/'+response.body._id);
           });
       },
